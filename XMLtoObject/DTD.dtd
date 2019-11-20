@@ -1,0 +1,8 @@
+<!DOCTYPE datatable [
+        <!ELEMENT datatable (dataPoint)*>
+        <!ELEMENT dataPoint (x|y)*>
+        <!ATTLIST dataPoint
+                date CDATA #REQUIRED>
+        <!ELEMENT x (#PCDATA)>
+        <!ELEMENT y (#PCDATA)>
+        ]>#FIXED ''>
